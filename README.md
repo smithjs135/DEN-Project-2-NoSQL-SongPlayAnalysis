@@ -5,7 +5,7 @@ Discuss the purpose of this database in the context of the startup, Sparkify, an
 ## Introduction
 Sparkify recently released a music streaming application and they strongly desire to increase their appeal to customer.  The analytics team provided JSON logs which track user activity and JSON metadata which contain data related the songs that are currently available on the application.  The analytics team is particularly interested in understanding what songs users are listening to. 
 
-## Database schema desing
+## Database schema design
 The data is stored in a star schema on a dedicated Postgres database.  This approach was determined ideal with the following considerations in mind:
 - Small data volume
 - fast query aggregation
